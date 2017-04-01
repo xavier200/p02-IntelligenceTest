@@ -1,32 +1,22 @@
-
+//Xavier Villanueva
 function math()
 {
   var question
   question= document.getElementById("Answer").value;
-<<<<<<< HEAD
+
   document.getElementById("submitbutton").onclick = function () {
           location.href = "file:///C:/Users/Xavier%20Villanueva/Documents/Cins%20110/p02-IntelligenceTest/Test2.html";
       };
 
 
-=======
+
 
 }
 if(isNaN(question))
 {
   alert("Enter the Answer as a number")
 }
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> master
 
-else
-{
-  question = number(question);
-}
-<<<<<<< HEAD
-=======
 
 else
 {
@@ -34,13 +24,11 @@ else
 }
 
 
+else
+{
+  question = number(question);
+}
 
-
-
->>>>>>> Stashed changes
-=======
->>>>>>> master
->>>>>>> master
 //courtesy of w3schools, from: http://www.w3schools.com/js/js_cookies.asp
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
@@ -63,7 +51,3 @@ function getCookie(cname) {
     }
     return "";
 }
-<<<<<<< HEAD
-}
-=======
->>>>>>> master
